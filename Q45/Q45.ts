@@ -7,20 +7,26 @@
 // stored correctly.
 
 
-interface car   {
-    manufacture:string
-    model:string
-    [key:string]:any
-}
+// interface car   {
+//     manufacture:string
+//     model:string
+//     [key:string]:any
+// }
 
 
-function createCar(manufacture:string,model:string,optional:Record<string,any>):car{
-    return{
-        manufacture,
-        model,
-        ...optional
-    }
-}
+// function createCar(manufacture:string,model:string,optional:Record<string,any>):car{
+//     return{
+//         manufacture,
+//         model,
+//         ...optional
+//     }
+// }
 
-const myCar = createCar("Honda","Civic",{color:"black",year:2022})
-console.log(myCar);
+// const myCar = createCar("Honda","Civic",{color:"black",year:2022})
+// console.log(myCar);
+
+let Addition: number = 5+3
+let Subtraction: number = 15-7
+let Multiplication: number = 2*4
+let Division: number = 32/4
+console.log (Addition , Subtraction , Multiplication , Division);
